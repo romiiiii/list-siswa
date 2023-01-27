@@ -35,11 +35,9 @@ if (!$_SESSION['id_user']) {
             <div class="col-md-9">
                 <div class="card">
                     <div class="card-body">
-                        <label>SISWA</label>
+                        <label>SISWA</label><br>
+                        Selamat Datang <?php echo $_SESSION['nama_lengkap'] ?> ! 
                         <hr>
-
-                        Selamat Datang <?php echo $_SESSION['nama_lengkap'] ?>
-
                     </div>
                 </div>
             </div>
